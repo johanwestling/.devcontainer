@@ -2,11 +2,18 @@
 
 This is a template for getting started with a [devcontainer](https://containers.dev/) in a new repository or adding one to an existing project.
 
+**Table of contents**
+
+* [Create repository](#create-repository)
+* [Add to existing project](#add-to-existing-project)
+* [Update template](#update-template)
+* [Remove template](#remove-template)
+
 <br>
 
 ### Create repository
 
-https://github.com/new?template_name=.devcontainer&template_owner=johanwestling
+* https://github.com/new?template_name=.devcontainer&template_owner=johanwestling
 
 <br>
 
@@ -21,7 +28,7 @@ curl -sS https://raw.githubusercontent.com/johanwestling/.devcontainer/refs/head
 
 <br>
 
-### Update/remove devcontainer template
+### Update template
 
 Update the `.devcontainer` template with the following command:
 
@@ -34,7 +41,7 @@ Update the `.devcontainer` template with the following command:
 
 <br>
 
-### Remove devcontainer template
+### Remove template
 
 Remove the `.devcontainer` template with the following command:
 
