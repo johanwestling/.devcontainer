@@ -8,6 +8,7 @@ A template for getting started with [devcontainers](https://containers.dev/) in 
 * [Add to existing project](#add-to-existing-project)
 * [Update template](#update-template)
 * [Remove template](#remove-template)
+* [Alias launch in devcontainer](#alias-launch-in-devcontainer)
 
 <br>
 
@@ -76,3 +77,11 @@ A template for getting started with [devcontainers](https://containers.dev/) in 
 	```bash
 	.devcontainer/devcontainerRemove.sh
 	```
+
+<br>
+
+### Alias launch in devcontainer
+
+If you want to make an alias for launching your project directly in your newly created devcontainer, check my gist:
+
+* https://gist.github.com/johanwestling/6db820d0c662045a4b3230bdbba27216
