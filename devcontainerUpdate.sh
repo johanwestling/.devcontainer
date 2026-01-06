@@ -8,4 +8,4 @@ pwdAfter=$(pwd)
 
 cd $pwdBefore \
 	&& git pull \
-	&& cd $pwdAfter \
+	&& cd $pwdAfter
