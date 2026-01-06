@@ -1,6 +1,6 @@
 # Devcontainer
 
-This is a template for getting started with a [devcontainer](https://containers.dev/) in a new repository or adding one to an existing project.
+A template for getting started with [devcontainers](https://containers.dev/) in new or existing repositories.
 
 **Table of contents**
 
