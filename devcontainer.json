@@ -2,7 +2,7 @@
 	"name": "Devcontainer",
 	"build": {
     "context": "../", 
-		"dockerfile": "./container/Dockerfile"
+		"dockerfile": "Dockerfile"
 	},
   "containerEnv": {
     "SHELL": "/bin/bash"
