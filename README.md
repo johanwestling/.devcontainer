@@ -19,35 +19,60 @@ A template for getting started with [devcontainers](https://containers.dev/) in 
 
 ### Add to existing project
 
-```bash
-curl -sS https://raw.githubusercontent.com/johanwestling/.devcontainer/refs/heads/main/devcontainerInstall.sh | bash
-```
+1. Open terminal.
 
-> [!IMPORTANT]
-> Above command assumed to be ran from project directory.
+1. Change to project directory:
+
+	```bash
+	cd /path/to/project
+	```
+
+1. Add `.devcontainer` to project:
+
+	```bash
+	curl -sS https://raw.githubusercontent.com/johanwestling/.devcontainer/refs/heads/main/devcontainerInstall.sh | bash
+	```
+
+1. Open vscode or other editor supporting devcontainers:
+
+	```bash
+	code .
+	```
+
+1. When prompted click **Reopen in container**.
 
 <br>
 
 ### Update template
 
-Update the `.devcontainer` template with the following command:
+1. Open terminal.
 
-```bash
-.devcontainer/devcontainerUpdate.sh
-```
+1. Change to project directory:
 
-> [!IMPORTANT]
-> Above command assumed to be ran from project directory, not `.devcontainer` directory.
+	```bash
+	cd /path/to/project
+	```
+
+1. Update template:
+
+	```bash
+	.devcontainer/devcontainerUpdate.sh
+	```
 
 <br>
 
 ### Remove template
 
-Remove the `.devcontainer` template with the following command:
+1. Open terminal.
 
-```bash
-.devcontainer/devcontainerRemove.sh | bash
-```
+1. Change to project directory:
 
-> [!IMPORTANT]
-> Above command assumed to be ran from project directory, not `.devcontainer` directory.
+	```bash
+	cd /path/to/project
+	```
+
+1. Remove template:
+
+	```bash
+	.devcontainer/devcontainerRemove.sh
+	```
