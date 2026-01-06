@@ -82,6 +82,6 @@ A template for getting started with [devcontainers](https://containers.dev/) in 
 
 ### Alias launch in devcontainer
 
-If you want to make an alias for launching your project directly in your newly created devcontainer, check my gist:
+If you want vscode launch your project directly in your newly created devcontainer, check my gist:
 
 * https://gist.github.com/johanwestling/6db820d0c662045a4b3230bdbba27216
