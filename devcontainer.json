@@ -4,7 +4,8 @@
 		"dockerfile": "Dockerfile"
 	},
   "containerEnv": {
-    "SHELL": "/bin/bash"
+    "SHELL": "/bin/bash",
+    "DEVCONTAINER_WORKSPACE": "${localWorkspaceFolder}"
   },
   "postCreateCommand": "./.devcontainer/lifecycle/postCreateCommand.sh",
   "postStartCommand": "./.devcontainer/lifecycle/postStartCommand.sh",

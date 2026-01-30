@@ -10,4 +10,4 @@ source $DEVCONTAINER_SCRIPT_PATH/bashCompletion.sh
 source $DEVCONTAINER_SCRIPT_PATH/bashAliases.sh
 source $DEVCONTAINER_SCRIPT_PATH/sshConfigCopy.sh
 source $DEVCONTAINER_SCRIPT_PATH/gitConfigCopy.sh
-source $DEVCONTAINER_SCRIPT_PATH/gitConfigEditor.sh
+source $DEVCONTAINER_SCRIPT_PATH/gitConfig.sh
