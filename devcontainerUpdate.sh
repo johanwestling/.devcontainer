@@ -1,11 +1,6 @@
 #!/bin/bash
 
 echo -en "\033[1;33m→\033[0m "
-echo -e "Update .devcontainer"
+echo -e "Update .devcontainer in $(pwd)"
 
-pwdBefore=".devcontainer"
-pwdAfter=$(pwd)
-
-cd $pwdBefore \
-	&& git pull \
-	&& cd $pwdAfter
+git subtree pull --prefix .devcontainer git@github.com:johanwestling/.devcontainer.git main --squash
