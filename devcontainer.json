@@ -30,5 +30,5 @@
   },
   "postCreateCommand": "./.devcontainer/lifecycle/postCreateCommand.sh",
   "postStartCommand": "./.devcontainer/lifecycle/postStartCommand.sh",
-  "postAttachCommand": "./.devcontainer/lifecycle/postAttachCommand.sh",
+  "postAttachCommand": "./.devcontainer/lifecycle/postAttachCommand.sh"
 }
