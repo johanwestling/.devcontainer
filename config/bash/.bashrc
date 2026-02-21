@@ -88,7 +88,6 @@ fi
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
-alias wip="git commit -m \"Work in progress\""
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -113,6 +112,11 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+# Add devcontainer aliases
+alias wip='git commit -m "Work in progress"'
+alias d='docker'
+alias dc='docker compose'
 
 # Activate starship prompt
 eval "$(starship init bash)"
